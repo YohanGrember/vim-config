@@ -1,6 +1,7 @@
 # Vim Configuration
 
 ## Plugins in use
+* [vim-pathogen](https://github.com/tpope/vim-pathogen) to install other plugins easily
 * [jedi-vim](https://github.com/davidhalter/jedi-vim) for autocompletion
 * [vim-surround](https://github.com/tpope/vim-surround) to handle parentheses and quotes
 * [vim-fugitive](https://github.com/tpope/vim-fugitive) to use git commands from vim
