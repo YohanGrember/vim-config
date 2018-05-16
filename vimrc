@@ -7,7 +7,8 @@ set background=dark
 set number
 set ruler
 set showcmd
-match Error /\s\+$/          "Highlight trailing whitespaces
+match Error /\s\+$/          " Highlight trailing whitespaces
+set nu                       " Show line numbers
 
 " Search
 set hlsearch
@@ -15,6 +16,8 @@ set incsearch
 if has('nvim')
   set inccommand=nosplit
 endif
+set ignorecase               " Ignore Case
+set smartcase                " Unless we search for an uppercase
 
 " Autoindent
 set autoindent
@@ -23,7 +26,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-" Use <Tab> in command mode
+" Use <Tab> for completion in command mode
 set wildmenu
 set wildmode=longest,full
 
@@ -35,10 +38,7 @@ set mouse=a
 nmap Y y$
 nmap U <C-r>
 
-" Show line numbers
-set nu
-
-" Disable use of Arrows
+" Force Training - Disable use of Arrows
 " In normal mode
 nnoremap <Up> :echo "No arrows, use hjkl!!!" <CR>
 nnoremap <Down> :echo "No arrows, use hjkl!!!" <CR>
@@ -58,6 +58,9 @@ vnoremap <Right> :echo "No arrows, use hjkl!!!" <CR>
 " Remove whitespace
 noremap <silent> <F3> :call StripTrailingWhitespace()<CR>
 
+" Definitions
+:let mapleader = ' '
+
 " FUNCTIONS {{{
 function! StripTrailingWhitespace()
     " preparation: save last search, and cursor position.
@@ -69,3 +72,10 @@ function! StripTrailingWhitespace()
     let @/=_s
     call cursor(l, c)
 endfunction
+
+" PLUGINS
+
+" Pathogen
+execute pathogen#infect()
+filetype plugin on           " Enable filetype plugin
+
