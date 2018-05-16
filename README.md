@@ -8,6 +8,7 @@
 * [vim-textobj-python](https://github.com/bps/vim-textobj-python) for python-specific text-objects
 * [targets](https://github.com/wellle/targets.vim) for even more powerful text-objects
 * [sideways](https://github.com/AndrewRadev/sideways.vim) to move functions arguments
+* [nerdcommenter](https://github.com/scrooloose/nerdcommenter) for quicker commenting
 
 ## Color theme
 * [vim-distinguished](https://github.com/Lokaltog/vim-distinguished)
