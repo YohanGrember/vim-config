@@ -1,37 +1,37 @@
-" coloration syntaxique
+" Colors
 syntax on
 colorscheme distinguished
 set background=dark
 
-" aides visuelles
+" Visual Help
 set number
 set ruler
 set showcmd
 match Error /\s\+$/          "Highlight trailing whitespaces
 
-" recherche incrémentale
+" Search
 set hlsearch
 set incsearch
 if has('nvim')
   set inccommand=nosplit
 endif
 
-" auto-indentation à 2 espaces
+" Autoindent
 set autoindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-" compléter avec <Tab> en mode commande
+" Use <Tab> in command mode
 set wildmenu
 set wildmode=longest,full
 
-" options honteuses (pour les faibles)
+" For convenience
 set clipboard=unnamedplus
 set mouse=a
 
-" un peu de cohérence dans un monde de brutes
+" For consistency
 nmap Y y$
 nmap U <C-r>
 
