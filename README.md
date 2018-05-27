@@ -1,6 +1,6 @@
 # Vim Configuration
 
-To use this vim configuration, please use: 
+To use this vim configuration, please:
 
 ```shell
 git clone https://github.com/YohanGrember/vim-config
