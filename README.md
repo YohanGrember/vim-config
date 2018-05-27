@@ -1,5 +1,15 @@
 # Vim Configuration
 
+To use this vim configuration, please use: 
+
+```shell
+git clone https://github.com/YohanGrember/vim-config
+mv vim-config ~/.vim
+mv ~/.vimrc ~/.vimrc.old
+cd ~/.vim
+sh auto_setup.sh
+```
+
 ## Plugins in use
 * [vim-pathogen](https://github.com/tpope/vim-pathogen) to install other plugins easily
 * [jedi-vim](https://github.com/davidhalter/jedi-vim) for autocompletion
