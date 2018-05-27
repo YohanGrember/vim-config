@@ -3,10 +3,10 @@
 To use this vim configuration, please:
 
 ```shell
-mv ~/.vimrc ~/.vimrc.old && mv ~/.vim ~/.vim.old >> /dev/null
-git clone https://github.com/YohanGrember/vim-config
-mv vim-config ~/.vim
-cd ~/.vim
+mv ~/.vimrc ~/.vimrc.old && mv ~/.vim ~/.vim.old >> /dev/null && \
+git clone https://github.com/YohanGrember/vim-config && \
+mv vim-config ~/.vim && \
+cd ~/.vim && \
 sh auto_setup.sh
 ```
 
