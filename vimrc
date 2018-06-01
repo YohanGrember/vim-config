@@ -44,11 +44,6 @@ nnoremap <Up> :echo "No arrows, use hjkl!!!" <CR>
 nnoremap <Down> :echo "No arrows, use hjkl!!!" <CR>
 nnoremap <Left> :echo "No arrows, use hjkl!!!" <CR>
 nnoremap <Right> :echo "No arrows, use hjkl!!!" <CR>
-" In insertion mode
-inoremap <Up> <Nop>
-inoremap <Down> <Nop>
-inoremap <Left> <Nop>
-inoremap <Right> <Nop>
 " In visual mode
 vnoremap <Up> :echo "No arrows, use hjkl!!!" <CR>
 vnoremap <Down> :echo "No arrows, use hjkl!!!" <CR>
