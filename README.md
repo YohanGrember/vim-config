@@ -1,6 +1,6 @@
-# Vim Configuration
+# A simple vim configuration
 
-To use this vim configuration, please open a terminal and copu paste this:
+To automatically install my vimrc and all those cool plugins, please open a terminal and copy paste this:
 
 ```shell
 mv ~/.vimrc ~/.vimrc.old >> /dev/null
