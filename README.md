@@ -8,7 +8,8 @@ mv ~/.vim ~/.vim.old >> /dev/null
 git clone https://github.com/YohanGrember/vim-config && \
 mv vim-config ~/.vim && \
 cd ~/.vim && \
-sh auto_setup.sh
+sh auto_setup.sh && \
+cd -
 ```
 
 ## Plugins in use
