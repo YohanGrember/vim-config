@@ -1,6 +1,6 @@
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
-git clone https://github.com/davidhalter/jedi-vim
+git clone --recursive https://github.com/davidhalter/jedi-vim
 git clone https://github.com/tpope/vim-surround
 git clone https://github.com/tpope/vim-fugitive
 git clone https://github.com/kana/vim-textobj-user

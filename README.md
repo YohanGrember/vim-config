@@ -1,9 +1,10 @@
 # Vim Configuration
 
-To use this vim configuration, please:
+To use this vim configuration, please open a terminal and copu paste this:
 
 ```shell
-mv ~/.vimrc ~/.vimrc.old && mv ~/.vim ~/.vim.old >> /dev/null && \
+mv ~/.vimrc ~/.vimrc.old >> /dev/null
+mv ~/.vim ~/.vim.old >> /dev/null
 git clone https://github.com/YohanGrember/vim-config && \
 mv vim-config ~/.vim && \
 cd ~/.vim && \
